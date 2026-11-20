@@ -1,0 +1,81 @@
+/* ============================================================
+   variables.css — Design system tokens
+   ============================================================ */
+:root {
+  /* Typography */
+  --font-heading: "Manrope", "Segoe UI", Arial, sans-serif;
+  --font-body: "DM Sans", "Segoe UI", Arial, sans-serif;
+
+  /* Brand + surfaces (light mode) */
+  --c-primary: #2563eb;
+  --c-primary-hover: #1d4ed8;
+  --c-primary-soft: #eff6ff;
+  --c-primary-softer: #f5f9ff;
+  --c-primary-border: #bfdbfe;
+  --c-accent: #0ea5e9;
+
+  --c-navy: #0f1b34;
+  --c-text: #1e293b;
+  --c-text-soft: #475569;
+  --c-muted: #64748b;
+  --c-muted-light: #94a3b8;
+
+  --c-bg: #f5f7fb;
+  --c-surface: #ffffff;
+  --c-surface-alt: #f8fafc;
+  --c-border: #e7ecf3;
+  --c-border-strong: #d7e0ec;
+
+  /* Semantic */
+  --c-success: #059669;
+  --c-success-soft: #ecfdf5;
+  --c-success-border: #a7f3d0;
+  --c-warning: #d97706;
+  --c-warning-soft: #fffbeb;
+  --c-warning-border: #fde68a;
+  --c-danger: #dc2626;
+  --c-danger-soft: #fef2f2;
+  --c-danger-border: #fecaca;
+  --c-purple: #7c3aed;
+  --c-purple-soft: #f5f3ff;
+
+  /* Alternative palette (charts & cards) */
+  --c-alt-1: #2563eb;
+  --c-alt-2: #7c3aed;
+  --c-alt-3: #0891b2;
+  --c-alt-4: #ea580c;
+
+  /* Radius */
+  --r-xs: 6px;
+  --r-sm: 9px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 20px;
+  --r-pill: 999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(15, 27, 52, .04);
+  --shadow-sm: 0 2px 8px rgba(15, 27, 52, .05);
+  --shadow-md: 0 8px 24px rgba(15, 27, 52, .07);
+  --shadow-lg: 0 18px 48px rgba(15, 27, 52, .14);
+  --shadow-focus: 0 0 0 3px rgba(37, 99, 235, .16);
+
+  /* Spacing */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-7: 32px;
+  --sp-8: 40px;
+
+  /* Layout */
+  --sidebar-width: 262px;
+  --topbar-height: 78px;
+  --content-max: 1440px;
+
+  /* Motion */
+  --t-fast: 150ms ease;
+  --t-base: 240ms cubic-bezier(.4, 0, .2, 1);
+}
